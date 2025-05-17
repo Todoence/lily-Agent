@@ -9,7 +9,7 @@ This is a FastAPI-based application. Follow the steps below to run it locally.
 
 ## 📦 How to Run (Step-by-Step)
 
-> ⚠️ **WARNING**: Please do not share `.env` with anybody. The API keys will be deleted later!
+> ⚠️ **WARNING**: Please check .env.example.txt, make sure implement with your API keys and change the file name to .env
 
 1. Make sure you have **Python 3.12.9** installed.
 

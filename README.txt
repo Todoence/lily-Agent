@@ -5,7 +5,7 @@ Lily Agent - Quick Start Guide
 Thank you for downloading Lily Agent!
 
 This is a FastAPI-based application. Follow the steps below to run it locally.
-Demo video: https://www.youtube.com/watch?v=zpdn_4kstuM
+Demo video: https://www.youtube.com/watch?v=p648tsXuhLk
 ---------------------------
 📦 How to Run (Step-by-Step)
 ---------------------------

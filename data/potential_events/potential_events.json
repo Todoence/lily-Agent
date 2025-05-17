@@ -1,0 +1,82 @@
+[
+  {
+    "name": "American Institute of Architects (AIA)",
+    "url": "https://www.aia.org",
+    "category": "Associations"
+  },
+  {
+    "name": "Solar Energy Industries Association (SEIA)",
+    "url": "https://www.seia.org",
+    "category": "Associations"
+  },
+  {
+    "name": "International Air Transport Association (IATA)",
+    "url": "https://www.iata.org",
+    "category": "Associations"
+  },
+  {
+    "name": "American Chemistry Council",
+    "url": "https://www.americanchemistry.com",
+    "category": "Associations"
+  },
+  {
+    "name": "PRINTING United Alliance (formerly SGIA)",
+    "url": "https://www.printing.org",
+    "category": "Associations"
+  },
+  {
+    "name": "American Public Transportation Association (APTA)",
+    "url": "https://www.apta.com",
+    "category": "Associations"
+  },
+  {
+    "name": "International Builders' Show (IBS)",
+    "url": "https://www.buildersshow.com",
+    "category": "Exhibitions"
+  },
+  {
+    "name": "Paris Air Show",
+    "url": "https://www.paris-air-show.com",
+    "category": "Exhibitions"
+  },
+  {
+    "name": "RE+ (formerly Solar Power International)",
+    "url": "https://www.re-plus.com",
+    "category": "Exhibitions"
+  },
+  {
+    "name": "MEDICA Trade Fair",
+    "url": "https://www.medica-tradefair.com",
+    "category": "Exhibitions"
+  },
+  {
+    "name": "The Battery Show",
+    "url": "https://www.thebatteryshow.com",
+    "category": "Exhibitions"
+  },
+  {
+    "name": "ISSA Trade Show",
+    "url": "https://www.issa.com",
+    "category": "Exhibitions"
+  },
+  {
+    "name": "Renewable Energy World",
+    "url": "https://www.renewableenergyworld.com",
+    "category": "News"
+  },
+  {
+    "name": "Healthcare Design Magazine",
+    "url": "https://www.healthcaredesignmagazine.com",
+    "category": "News"
+  },
+  {
+    "name": "Coatings World",
+    "url": "https://www.coatingsworld.com",
+    "category": "News"
+  },
+  {
+    "name": "Aerospace Manufacturing and Design",
+    "url": "https://www.aerospacemanufacturinganddesign.com",
+    "category": "News"
+  }
+]

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lily AI Agent Demo</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <!-- Uncomment below if Bootstrap is needed -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
+</head>
+<body>
+  <div class="container">
+    <h1>Lily AI Agent</h1>
+    <form id="crawl-form">
+      <label for="target_url">Root URL:</label>
+      <input type="url" id="target_url" name="target_url" placeholder="Enter a website URL" required>
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Step status area -->
+    <div id="step1" class="step" style="display: none;">
+      <span class="step-text">1. Crawling root URL</span>
+      <span id="step1-status" class="spinner"></span>
+    </div>
+
+    <div id="step2" class="step" style="display: none;">
+      <span class="step-text">2. Processing knowledge base</span>
+      <span id="step2-status" class="spinner"></span>
+    </div>
+
+    <div id="step3" class="step" style="display: none;">
+      <span class="step-text">3. Finding potential events</span>
+      <span id="step3-status" class="spinner"></span>
+    </div>
+    
+    <div id="step4" class="step" style="display: none;">
+      <span class="step-text">4. Extracting companies</span>
+      <span id="step4-status" class="spinner"></span>
+    </div>
+    
+    <div id="step5" class="step" style="display: none;">
+      <span class="step-text">5. Prioritizing companies</span>
+      <span id="step5-status" class="spinner"></span>
+    </div>
+  </div>
+  
+  <!-- Preview modal for showing card layout and email content -->
+  <div id="preview-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span id="preview-close" class="modal-close">&times;</span>
+      <div id="preview-content"></div>
+    </div>
+  </div>
+
+  <!-- Global mask to freeze UI during API calls -->
+  <div id="global-overlay" class="overlay" style="display: none;">
+    <div class="overlay-spinner"></div>
+  </div>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

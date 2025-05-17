@@ -1,0 +1,182 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Step hint area */
+  .step {
+    margin-top: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Spinner style */
+  .spinner {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 4px solid #ccc;
+    border-top-color: #007BFF;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Green checkmark */
+  .checkmark {
+    font-size: 24px;
+    color: green;
+  }
+  
+  /* Modal style */
+  .modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    max-width: 800px;
+    max-height: 80%;
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  .modal-close {
+    color: #aaa;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .modal-close:hover,
+  .modal-close:focus {
+    color: black;
+    text-decoration: none;
+  }
+  
+  /* Global overlay */
+  .overlay {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Loading spinner on overlay */
+  .overlay-spinner {
+    width: 50px;
+    height: 50px;
+    border: 6px solid #ccc;
+    border-top-color: #007BFF;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Email preview layout */
+  .email-preview {
+    white-space: pre-wrap;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  
+  /* Card style */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+  }
+  
+  .card h3 {
+    margin: 0 0 10px 0;
+    color: #007BFF;
+  }
+  
+  .card p {
+    margin: 5px 0;
+    line-height: 1.5;
+  }
+  
+  /* Dashboard section */
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  

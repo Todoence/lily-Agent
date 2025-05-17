@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard View</title>
+  <link rel="stylesheet" href="/static/css/dashboard.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    <div class="dashboard-column" id="column-events">
+      <h2>Potential Events</h2>
+      <div id="events-list"></div>
+    </div>
+    <div class="dashboard-column" id="column-customers">
+      <h2>Potential Customers</h2>
+      <div id="customers-list"></div>
+    </div>
+    <div class="dashboard-column" id="column-prioritized">
+      <h2>Prioritized Companies</h2>
+      <div id="prioritized-list"></div>
+    </div>
+  </div>
+  <button id="back-button" class="back-btn">Back</button>
+
+  <!-- Preview modal for displaying Outreach Email preview -->
+  <div id="preview-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <span id="preview-close" class="modal-close">&times;</span>
+      <div id="preview-content" class="email-preview"></div>
+    </div>
+  </div>
+
+  <!-- Global mask (used to freeze UI during Outlook requests) -->
+  <div id="global-overlay" class="overlay" style="display: none;">
+    <div class="overlay-spinner"></div>
+  </div>
+
+  <script src="/static/js/dashboard.js"></script>
+</body>
+</html>
